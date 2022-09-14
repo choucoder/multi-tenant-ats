@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T08:37:10.755Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jnIt8X924CHEeZCVaVHR" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T08:37:44.880Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HPOi7EXGA9s6Ok0kglqH" version="20.3.0" type="github">
   <diagram id="Xn1M98Fq9kwTQs8FCrUk" name="Page-1">
     <mxGraphModel dx="1718" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -165,6 +165,12 @@
         </mxCell>
         <mxCell id="gyeoODHAACcF610-BmB4-54" value="PostgreSQL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="735" y="415" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-55" value="Lambda AWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="373" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-56" value="Pipeline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="435" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
