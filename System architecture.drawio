@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T06:08:16.448Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="ySR61WDzVLSrSz46jwdV" type="github"><diagram id="Xn1M98Fq9kwTQs8FCrUk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T06:38:14.763Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qvQaVOJ2RudeYoc6yOmO" version="20.3.0" type="github">
+  <diagram id="Xn1M98Fq9kwTQs8FCrUk" name="Page-1">
+    <mxGraphModel dx="868" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gyeoODHAACcF610-BmB4-11" value="Load Candidates Job 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-13" value="DB Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="158" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-14" value="API Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="28" width="110" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-15" value="API Pod 1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="32" width="90" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-17" value="API Pod 2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="158" width="90" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-18" value="API Pod 3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="292" width="90" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-19" value="Database&lt;br&gt;Write/Read" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="10" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-20" value="Database&lt;br&gt;Read" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="124" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gyeoODHAACcF610-BmB4-21" value="Database&lt;br&gt;Read" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
