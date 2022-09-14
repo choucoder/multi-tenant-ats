@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T04:35:16.329Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g5MfihhPwb8E1B7GKXHb" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T04:37:06.215Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lg1_XmYNMUDrQxbZA0ew" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2274" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="1987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ST5YyUl0tAmkcKpmR_P2-0" value="users" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="900" y="-20" width="180" height="210" as="geometry" />
+          <mxGeometry x="1020" y="-60" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="ST5YyUl0tAmkcKpmR_P2-1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ST5YyUl0tAmkcKpmR_P2-0" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -154,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ST5YyUl0tAmkcKpmR_P2-26" value="candidates" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="370" y="300" width="180" height="190" as="geometry" />
+          <mxGeometry x="310" y="270" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ST5YyUl0tAmkcKpmR_P2-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="ST5YyUl0tAmkcKpmR_P2-26" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -421,17 +421,11 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ST5YyUl0tAmkcKpmR_P2-130" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ST5YyUl0tAmkcKpmR_P2-1" target="ST5YyUl0tAmkcKpmR_P2-78">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="550" y="340" as="sourcePoint" />
-            <mxPoint x="950" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Note:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Hiring status can be one of the following options:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. IN_PROGRESS&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. HIRED&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. DROPPED&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-40" y="970" width="280" height="90" as="geometry" />
+          <mxGeometry x="450" y="970" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-32" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This statuses represent each column&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;in the job pipeline. They are ordered by&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the ordering_index field and belong to&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a customer&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1335" y="445" width="230" height="70" as="geometry" />
+          <mxGeometry x="500" y="460" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-33" value="jobs_skills" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1220" y="810" width="180" height="130" as="geometry" />
@@ -543,7 +537,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-72" value="user_invitations" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="140" width="180" height="180" as="geometry" />
+          <mxGeometry x="1370" y="-45" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Xz0fmVg7ydJ4_tS_oLeI-72">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -749,6 +743,12 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="870" y="710" as="sourcePoint" />
             <mxPoint x="970" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xz0fmVg7ydJ4_tS_oLeI-123" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ST5YyUl0tAmkcKpmR_P2-13" target="ST5YyUl0tAmkcKpmR_P2-78">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="990" y="270" as="sourcePoint" />
+            <mxPoint x="1120" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
